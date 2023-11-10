@@ -57,3 +57,6 @@ export const deletePhotoFromDatabase = (id, successCallback, errorCallback) => {
     );
   });
 };
+
+// Call this function to initialize the database
+initializeDatabase();
